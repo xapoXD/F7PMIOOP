@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="240f7055-b3ba-4c77-bbb7-3c1d291ba909" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV04_Bojovnici/Bojovnic_src.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV04_Bojovnici/CV04_Bojovnici.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv01/cv01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv02/cv02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv03/cv03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv04/cv04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv05/cv05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv05/src/model/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/cv06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/src/model/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv06/src/model/Zvire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/du.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/src/models/GeneratorZapasu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/src/models/Sampionat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/src/models/Tym.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/src/models/TymZapas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/src/models/Zapas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../du/src/models/ZapasovaUdalost.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YRfnXHnUgQQ5bQe8HWbBmfuZpM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="cv07" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240f7055-b3ba-4c77-bbb7-3c1d291ba909" name="Changes" comment="" />
+      <created>1700493503427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700493503427</updated>
+      <workItem from="1700493504694" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

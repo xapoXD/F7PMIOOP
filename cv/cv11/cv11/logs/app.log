@@ -1,0 +1,12 @@
+2023-12-11 17:31:50.888 [main] INFO  proxy.SimpleLoggingProxy - Calling service with input: vstup
+2023-12-11 17:31:50.892 [main] INFO  proxy.SimpleLoggingProxy - Service returned: Vystup
+2023-12-11 17:31:50.894 [main] INFO  gate.GateReal - Opening gate for Karel
+2023-12-11 17:31:50.894 [main] INFO  gate.GateReal - Gate opened for Karel
+2023-12-11 17:37:04.503 [main] INFO  proxy.SimpleLoggingProxy - Calling service with input: vstup
+2023-12-11 17:37:04.506 [main] INFO  proxy.SimpleLoggingProxy - Service returned: Vystup
+2023-12-11 17:37:04.506 [main] INFO  gate.GateReal - Opening gate for Karel
+2023-12-11 17:37:04.507 [main] INFO  gate.GateReal - Gate opened for Karel
+2023-12-11 17:37:25.023 [main] INFO  proxy.SimpleLoggingProxy - Calling service with input: vstup
+2023-12-11 17:37:25.027 [main] INFO  proxy.SimpleLoggingProxy - Service returned: Vystup
+2023-12-11 17:37:25.028 [main] INFO  gate.GateReal - Opening gate for Karel
+2023-12-11 17:37:25.029 [main] INFO  gate.GateReal - Gate opened for Karel
