@@ -1,0 +1,16 @@
+2024-01-30 16:49:28.475 [main] INFO  zork.ui.CommandLineUi - Building Soldier with Health: 40, Damage: [ 10 - 20 ] with item: M4
+2024-01-30 16:49:28.477 [main] INFO  zork.ui.CommandLineUi - Building Mucus with Health: 150, Damage: [ 5 - 40 ] with item: Yoyo
+2024-01-30 16:49:28.478 [main] INFO  zork.ui.CommandLineUi - Building Mucus with Health: 30, Damage: [ 15 - 30 ] with item: Yoyo
+2024-01-30 16:49:28.478 [main] INFO  zork.ui.CommandLineUi - Building Thanos with Health: 150, Damage: [ 30 - 80 ]
+2024-01-30 16:49:28.478 [main] INFO  zork.ui.CommandLineUi - Building General with Health: 110, Damage: [ 10 - 35 ] with item: CongressRoomKey
+2024-01-30 16:49:28.478 [main] INFO  zork.ui.CommandLineUi - application started
+2024-01-30 16:49:31.881 [main] INFO  zork.ui.CommandLineUi - pickUp Blaster
+2024-01-30 16:49:34.542 [main] INFO  zork.ui.CommandLineUi - equip Blaster
+2024-01-30 16:49:37.597 [main] INFO  zork.ui.CommandLineUi - go Corridor
+2024-01-30 16:49:40.104 [main] INFO  zork.ui.CommandLineUi - attack 
+2024-01-30 16:49:42.997 [main] INFO  zork.ui.CommandLineUi - attack Mucus
+2024-01-30 16:49:45.265 [main] INFO  zork.ui.CommandLineUi - attack Mucus
+2024-01-30 16:49:47.401 [main] INFO  zork.ui.CommandLineUi - attack Mucus
+2024-01-30 16:49:50.993 [main] INFO  zork.ui.CommandLineUi - attack Mucus
+2024-01-30 16:49:53.873 [main] INFO  zork.ui.CommandLineUi - go Lobby
+2024-01-30 16:49:55.884 [main] INFO  zork.ui.CommandLineUi - End: GAME ENDED BY USER

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>models</OriginalElement>
+  <nodes>
+    <node x="63.696969696969745" y="171.0">models.ZapasovaUdalost</node>
+    <node x="114.82196969696975" y="716.0">models.Sampionat</node>
+    <node x="201.91351010101016" y="0.5">models.ZapasovaUdalost.UdalostEnum</node>
+    <node x="20.890782828282823" y="0.0">models.Tym</node>
+    <node x="198.07196969696975" y="588.0">models.GeneratorZapasu</node>
+    <node x="127.33333333333334" y="324.0">models.Zapas</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.Sampionat" target="models.Zapas" relationship="CREATE">
+      <point x="0.0" y="-60.0" />
+      <point x="253.82196969696975" y="685.0" />
+      <point x="11.0" y="685.0" />
+      <point x="11.0" y="566.0" />
+      <point x="266.33333333333337" y="566.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="models.Zapas" target="models.ZapasovaUdalost" relationship="CREATE">
+      <point x="0.0" y="-105.0" />
+      <point x="266.33333333333337" y="292.0" />
+      <point x="165.44696969696975" y="292.0" />
+      <point x="-101.75" y="49.5" />
+    </edge>
+    <edge source="models.GeneratorZapasu" target="models.Zapas" relationship="CREATE">
+      <point x="0.0" y="-38.0" />
+      <point x="320.07196969696975" y="566.0" />
+      <point x="266.33333333333337" y="566.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="models.Zapas" target="models.Tym" relationship="TO_ONE">
+      <point x="92.66666666666669" y="-105.0" />
+      <point x="359.0" y="302.0" />
+      <point x="338.49684343434353" y="302.0" />
+      <point x="338.49684343434353" y="292.0" />
+      <point x="481.19696969696975" y="292.0" />
+      <point x="481.19696969696975" y="150.0" />
+      <point x="497.4854797979799" y="150.0" />
+      <point x="497.4854797979799" y="120.0" />
+      <point x="114.6407828282828" y="120.0" />
+      <point x="31.25" y="49.5" />
+    </edge>
+    <edge source="models.ZapasovaUdalost" target="models.Tym" relationship="TO_ONE">
+      <point x="135.66666666666663" y="-49.5" />
+      <point x="402.8636363636364" y="150.0" />
+      <point x="331.41351010101016" y="150.0" />
+      <point x="331.41351010101016" y="140.0" />
+      <point x="497.4854797979799" y="140.0" />
+      <point x="497.4854797979799" y="120.0" />
+      <point x="114.6407828282828" y="120.0" />
+      <point x="31.25" y="49.5" />
+    </edge>
+    <edge source="models.ZapasovaUdalost" target="models.ZapasovaUdalost.UdalostEnum" relationship="TO_ONE">
+      <point x="135.66666666666663" y="-49.5" />
+      <point x="402.8636363636364" y="150.0" />
+      <point x="331.41351010101016" y="150.0" />
+      <point x="331.41351010101016" y="130.0" />
+      <point x="401.08017676767685" y="130.0" />
+      <point x="79.66666666666669" y="49.0" />
+    </edge>
+    <edge source="models.Sampionat" target="models.Tym" relationship="TO_ONE">
+      <point x="92.66666666666663" y="-60.0" />
+      <point x="346.4886363636364" y="695.0" />
+      <point x="528.3188131313133" y="695.0" />
+      <point x="528.3188131313133" y="150.0" />
+      <point x="497.4854797979799" y="150.0" />
+      <point x="497.4854797979799" y="120.0" />
+      <point x="114.6407828282828" y="120.0" />
+      <point x="31.25" y="49.5" />
+    </edge>
+    <edge source="models.Zapas" target="models.ZapasovaUdalost" relationship="TO_MANY">
+      <point x="92.66666666666669" y="-105.0" />
+      <point x="359.0" y="302.0" />
+      <point x="338.49684343434353" y="302.0" />
+      <point x="338.49684343434353" y="292.0" />
+      <point x="368.94696969696975" y="292.0" />
+      <point x="101.75" y="49.5" />
+    </edge>
+    <edge source="models.ZapasovaUdalost" target="models.Tym" relationship="DEPENDENCY">
+      <point x="2.8421709430404007E-14" y="-49.5" />
+      <point x="267.19696969696975" y="150.0" />
+      <point x="294.39078282828285" y="150.0" />
+      <point x="294.39078282828285" y="130.0" />
+      <point x="34.571969696969745" y="130.0" />
+      <point x="34.571969696969745" y="120.0" />
+      <point x="52.14078282828282" y="120.0" />
+      <point x="-31.25" y="49.5" />
+    </edge>
+    <edge source="models.Sampionat" target="models.GeneratorZapasu" relationship="CREATE">
+      <point x="0.0" y="-60.0" />
+      <point x="253.82196969696975" y="685.0" />
+      <point x="320.07196969696975" y="685.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="models.ZapasovaUdalost" target="models.ZapasovaUdalost.UdalostEnum" relationship="DEPENDENCY">
+      <point x="2.8421709430404007E-14" y="-49.5" />
+      <point x="267.19696969696975" y="150.0" />
+      <point x="294.39078282828285" y="150.0" />
+      <point x="294.39078282828285" y="140.0" />
+      <point x="321.41351010101016" y="140.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="models.ZapasovaUdalost.UdalostEnum" target="models.ZapasovaUdalost" relationship="INNER_CLASS">
+      <point x="-79.66666666666667" y="49.0" />
+      <point x="241.7468434343435" y="150.0" />
+      <point x="131.53030303030312" y="150.0" />
+      <point x="-135.66666666666663" y="-49.5" />
+    </edge>
+    <edge source="models.Sampionat" target="models.Tym" relationship="TO_MANY">
+      <point x="92.66666666666663" y="-60.0" />
+      <point x="346.4886363636364" y="695.0" />
+      <point x="528.3188131313133" y="695.0" />
+      <point x="528.3188131313133" y="150.0" />
+      <point x="497.4854797979799" y="150.0" />
+      <point x="497.4854797979799" y="120.0" />
+      <point x="114.6407828282828" y="120.0" />
+      <point x="31.25" y="49.5" />
+    </edge>
+    <edge source="models.Zapas" target="models.Tym" relationship="DEPENDENCY">
+      <point x="-92.66666666666669" y="-105.0" />
+      <point x="173.66666666666666" y="302.0" />
+      <point x="39.821969696969745" y="302.0" />
+      <point x="39.821969696969745" y="150.0" />
+      <point x="34.571969696969745" y="150.0" />
+      <point x="34.571969696969745" y="120.0" />
+      <point x="52.14078282828282" y="120.0" />
+      <point x="-31.25" y="49.5" />
+    </edge>
+    <edge source="models.GeneratorZapasu" target="models.Tym" relationship="TO_MANY">
+      <point x="81.33333333333331" y="-38.0" />
+      <point x="401.40530303030306" y="566.0" />
+      <point x="497.4854797979799" y="566.0" />
+      <point x="497.4854797979799" y="120.0" />
+      <point x="114.6407828282828" y="120.0" />
+      <point x="31.25" y="49.5" />
+    </edge>
+    <edge source="models.Sampionat" target="models.Tym" relationship="DEPENDENCY">
+      <point x="-92.66666666666669" y="-60.0" />
+      <point x="161.15530303030306" y="695.0" />
+      <point x="0.0" y="695.0" />
+      <point x="0.0" y="150.0" />
+      <point x="34.571969696969745" y="150.0" />
+      <point x="34.571969696969745" y="120.0" />
+      <point x="52.14078282828282" y="120.0" />
+      <point x="-31.25" y="49.5" />
+    </edge>
+    <edge source="models.GeneratorZapasu" target="models.Tym" relationship="DEPENDENCY">
+      <point x="-81.33333333333331" y="-38.0" />
+      <point x="238.73863636363643" y="556.0" />
+      <point x="29.321969696969745" y="556.0" />
+      <point x="29.321969696969745" y="150.0" />
+      <point x="34.571969696969745" y="150.0" />
+      <point x="34.571969696969745" y="120.0" />
+      <point x="52.14078282828282" y="120.0" />
+      <point x="-31.25" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7862149532710281" showDependencies="true" x="264.5" y="418.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

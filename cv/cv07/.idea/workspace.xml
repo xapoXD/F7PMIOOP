@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="240f7055-b3ba-4c77-bbb7-3c1d291ba909" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/DoubleCheckedLockingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem/zork/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem/zork/src/main/test/zork/command/EndCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem/zork/src/main/test/zork/command/HelpCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/ZORK.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/ZORK.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/AttackCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/AttackCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/EndCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/EndCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/EquipCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/EquipCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/GoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/GoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/HelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/InventoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/InventoryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/LookAroundCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/LookAroundCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/PickUpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/PickUpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/PutDownCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/PutDownCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/command/ResetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/command/ResetCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/GameData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/GameDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/GameDataImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/GameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/RoomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/RoomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/enemy/EnemyBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/enemy/EnemyBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/enemy/EnemyBuilderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/enemy/EnemyBuilderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/enemy/EnemyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/enemy/EnemyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/enemy/EnemyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/enemy/EnemyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/enemy/EnemyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/enemy/EnemyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/ItemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/ItemImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/WeaponImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/WeaponImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/observer/InventoryObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/observer/InventoryObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/game/equipable/observer/InventoryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/game/equipable/observer/InventoryObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/java/cz/cvut/oop/ui/CommandLineUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/java/zork/ui/CommandLineUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/src/main/test/java/cz/cvut/oop/command/ResetCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/src/main/test/zork/command/ResetCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/AttackCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/EndCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/EquipCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/GoCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/HelpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/InventoryCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/LookAroundCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/PickUpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/PutDownCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/command/ResetCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/GameData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/GameDataImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/GameImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/RoomImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/enemy/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/enemy/EnemyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/enemy/EnemyBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/enemy/EnemyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/enemy/EnemyImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/enemy/EnemyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/ItemImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/WeaponImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/game/equipable/observer/InventoryObservable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/cz/cvut/oop/ui/CommandLineUi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem/zork/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem/zork/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/out/production/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/out/production/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/out/production/test/models/Sklad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/out/production/test/models/Sklad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/src/models/Sklad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/src/models/Sklad.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YRfnXHnUgQQ5bQe8HWbBmfuZpM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="cv07" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240f7055-b3ba-4c77-bbb7-3c1d291ba909" name="Changes" comment="" />
+      <created>1700493503427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700493503427</updated>
+      <workItem from="1700493504694" duration="600000" />
+      <workItem from="1705077750734" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
