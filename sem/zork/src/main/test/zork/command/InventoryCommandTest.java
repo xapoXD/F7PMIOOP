@@ -13,12 +13,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class InventoryCommandTest {
 
     @org.junit.jupiter.api.Test
-    public void get_AllDescription_Inventory() {
+    public void inventoryTest_InvIsEmpty() {
 
         GameDataImpl gameData = new GameDataImpl();
-        Weapon testWeapon = new WeaponImpl("testWP",2,5,10);
-        //gameData.getInventory().getDescriptionInventory();
-        //gameData.getInventory().getItemList();
+
+        gameData.getInventory().removeAllItems();
         Command inventory = new InventoryCommand();
 
         // inventory is empty
@@ -26,6 +25,16 @@ class InventoryCommandTest {
         System.out.println(result);
         Assert.assertTrue(result.equals("Your inventory is empty"));
 
+    }
+
+    @org.junit.jupiter.api.Test
+    public void inventoryTest_InvIsNotEmpty() {
+
+        GameDataImpl gameData = new GameDataImpl();
+        Weapon testWeapon = new WeaponImpl("testWP",2,5,10);
+        //gameData.getInventory().getDescriptionInventory();
+        //gameData.getInventory().getItemList();
+        Command inventory = new InventoryCommand();
 
         //inventory is not empty
         gameData.getInventory().addItem((Item) testWeapon);

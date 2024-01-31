@@ -13,7 +13,33 @@ import static org.junit.jupiter.api.Assertions.*;
 class EquipCommandTest {
 
     @org.junit.jupiter.api.Test
-    public void equipCommand_test() {
+    public void equipCommand_test_itemInInventory() {
+
+        String itemName[] = new String[10];
+
+        itemName[0] = "equip";
+        itemName[1] = "testWP";
+
+
+        GameDataImpl gameData = new GameDataImpl();
+
+
+        Command equip = new EquipCommand();
+        String result = equip.execute(itemName, gameData);
+        System.out.println(result);
+
+        //is in inventory
+        Weapon testWeapon = new WeaponImpl("testWP",2,5,10);
+        gameData.getInventory().addItem((Item) testWeapon);
+        String result2 = equip.execute(itemName, gameData);
+        System.out.println(result2);
+
+        Assert.assertTrue(testWeapon.equals(gameData.getInventory().getEquipedWeapon()));
+
+    }
+
+    @org.junit.jupiter.api.Test
+    public void equipCommand_test_itemIsNotInInventory() {
 
         String itemName[] = new String[10];
 
@@ -30,15 +56,8 @@ class EquipCommandTest {
         // is not in inventory
         Assert.assertTrue(result.equals("the item does not exist in your inventory"));
 
-        //is in inventory
-        Weapon testWeapon = new WeaponImpl("testWP",2,5,10);
-        gameData.getInventory().addItem((Item) testWeapon);
-        String result2 = equip.execute(itemName, gameData);
-        System.out.println(result2);
-
-        Assert.assertTrue(testWeapon.equals(gameData.getInventory().getEquipedWeapon()));
-
     }
+
 
 
     @org.junit.jupiter.api.Test

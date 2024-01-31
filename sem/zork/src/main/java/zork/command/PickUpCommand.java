@@ -32,47 +32,56 @@ public class PickUpCommand implements Command{
         CommandLineUi.log.info("pickUp " + itemName);
 
         if(item == null){
-
             return "Item does not exist";
         }
 
-        if(gameData.getInventory().containsClass(Weapon.class)) { //your inventory contains weapon
 
-            if(gameData.getInventory().getEquipedWeapon() == null){
-                gameData.getCurrentRoom().unRegisterItem(item);
 
-                Weapon inventoryWeapon = gameData.getInventory().getWeaponFromInventory();
-                gameData.getInventory().removeItem((Item) inventoryWeapon);
-                gameData.getCurrentRoom().registerItem((Item) inventoryWeapon);
-                gameData.getInventory().addItem(item);
+        if(gameData.getInventory().isInventoryFull()){
+            return "Inventory is full";
+        }else{
 
-                return "You picked up the weapon and threw away your current one from the inventory";
-            }else{ //you alredy have a weapon equiped -> unequip -> drop to room –> add new one to inventory
-                if(item instanceof Weapon){
+            if(gameData.getInventory().containsClass(Weapon.class) && item instanceof Weapon) { //your inventory contains weapon
+
+                if(gameData.getInventory().getEquipedWeapon() == null){
                     gameData.getCurrentRoom().unRegisterItem(item);
+
                     Weapon inventoryWeapon = gameData.getInventory().getWeaponFromInventory();
                     gameData.getInventory().removeItem((Item) inventoryWeapon);
                     gameData.getCurrentRoom().registerItem((Item) inventoryWeapon);
                     gameData.getInventory().addItem(item);
 
-                    gameData.getInventory().unequipItem((Item) inventoryWeapon); // needs extension for more items than weapon
+                    return "You picked up the weapon and threw away your current one from the inventory";
+                }else{ //you alredy have a weapon equiped -> unequip -> drop to room –> add new one to inventory
+                    if(item instanceof Weapon){
+                        gameData.getCurrentRoom().unRegisterItem(item);
+                        Weapon inventoryWeapon = gameData.getInventory().getWeaponFromInventory();
+                        gameData.getInventory().removeItem((Item) inventoryWeapon);
+                        gameData.getCurrentRoom().registerItem((Item) inventoryWeapon);
+                        gameData.getInventory().addItem(item);
 
-                    return "Your picked up the weapon and threw away your equipped one, you are now weaponless";
-                }else {
-                    gameData.getCurrentRoom().unRegisterItem(item);
-                    gameData.getInventory().addItem(item);
+                        gameData.getInventory().unequipItem((Item) inventoryWeapon); // needs extension for more items than weapon
 
-                    return "Item picked up";
+                        return "Your picked up the weapon and threw away your equipped one, you are now weaponless";
+                    }else {
+                        gameData.getCurrentRoom().unRegisterItem(item);
+                        gameData.getInventory().addItem(item);
+
+                        return "Item picked up";
+                    }
+
                 }
 
+            }else{ //your inventory does not contain weapon
+                gameData.getCurrentRoom().unRegisterItem(item);
+                gameData.getInventory().addItem(item);
+
+                return "Item picked up";
             }
 
-        }else{ //your inventory does not contain weapon
-            gameData.getCurrentRoom().unRegisterItem(item);
-            gameData.getInventory().addItem(item);
 
-            return "Item picked up";
         }
+
 
 
     }

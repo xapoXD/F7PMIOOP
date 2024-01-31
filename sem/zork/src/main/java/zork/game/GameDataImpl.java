@@ -31,8 +31,14 @@ public class GameDataImpl implements GameData {
         this.rooms = new ArrayList<>();
         Room baseRoom = new RoomImpl("Lobby", "Lobby of the spaceship ZORK with lots of rooms around", false);
         Weapon blaster = new WeaponImpl("Blaster",7,15,25);
+        Item healthPotion = new Potion("HealthPotion",1);
+        Item manaPotion = new Potion("ManaPotion",1);
+        Item staminaPotion = new Potion("StaminaPotion",1);
         rooms.add(baseRoom);
         baseRoom.registerItem((ItemImpl) blaster);
+        baseRoom.registerItem(healthPotion);
+        baseRoom.registerItem(manaPotion);
+        baseRoom.registerItem(staminaPotion);
 
         Room cinema = new RoomImpl("Cinema", "Cinema is projecting document about whales, there is a group of Imperial soldiers watching it with passion, you disturbed them...", false);
         baseRoom.registerExit(cinema);

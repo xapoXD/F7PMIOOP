@@ -22,4 +22,6 @@ public interface InventoryObservable {
 
     Item getItemByName(String itemName);
 
+    public boolean isInventoryFull();
+
 }

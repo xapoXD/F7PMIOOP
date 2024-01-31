@@ -170,4 +170,34 @@ class PickUpCommandTest {
     }
 
 
+
+    @org.junit.jupiter.api.Test
+    public void pickUpCommand_test_inventoryFull() {
+
+        String itemName[] = new String[10];
+
+        itemName[0] = "pickUp";
+        itemName[1] = "Key";
+
+        GameDataImpl gameData = new GameDataImpl();
+
+        Item key = new Key("Key",2);
+        Item potion = new Key("Potion",2);
+        Weapon testWeapon = new WeaponImpl("testWP",2,5,10);
+        gameData.getInventory().addItem((Item) testWeapon);
+        gameData.getInventory().addItem(potion);
+        gameData.getInventory().equipItem((Item) testWeapon);
+
+        Room testRoom = new RoomImpl("testRoom","this is a test room",false);
+        gameData.setCurrentRoom(testRoom);
+        testRoom.registerItem(key);
+
+        Command pickUp = new PickUpCommand();
+
+        String result = pickUp.execute(itemName, gameData);
+        System.out.println("RESULT 6: " + result);
+
+        Assert.assertTrue(result.equals("Inventory is full"));
+    }
+
 }

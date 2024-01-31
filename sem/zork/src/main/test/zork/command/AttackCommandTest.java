@@ -45,6 +45,30 @@ class AttackCommandTest {
         System.out.println(result2);
         Assert.assertTrue(result2.equals("there is no-one to fight"));
 
+    }
+
+    @org.junit.jupiter.api.Test
+    public void goCommand_test_ExistingEnemy() {
+
+        String enemyName[] = new String[10];
+
+        enemyName[0] = "attack";
+
+        GameDataImpl gameData = new GameDataImpl();
+        Room startRoom = new RoomImpl("startRoom", "start", false);
+        gameData.setCurrentRoom(startRoom);
+
+        EnemyBuilder enemyBuilder = new EnemyBuilderImpl("Mucus");
+        Enemy mucus = enemyBuilder.setHealth(150).setDamageLow(40).setDamageHigh(40).build();
+
+
+        Weapon testWeapon = new WeaponImpl("testWP",5,5,5);
+        gameData.getInventory().addItem((Item) testWeapon);
+        gameData.getInventory().equipItem((Item) testWeapon);
+
+
+        Command attack = new AttackCommand();
+
         // existing enemy
         enemyName[1] = "Mucus";
 
@@ -57,20 +81,40 @@ class AttackCommandTest {
 
         Assert.assertTrue(result1.equals(
                 "Status after attacks: \n" + mucus.getType().getName() + " attacked with " + 40 + " dmg\n"
-                + "You attacked with " + 5 + " dmg\n"
-                + mucus.getType().getName() +" health: "+ 145 +" vs " + "Your health: " + 110));
+                        + "You attacked with " + 5 + " dmg\n"
+                        + mucus.getType().getName() +" health: "+ 145 +" vs " + "Your health: " + 110));
 
-        // correctly done damage to enemy
+    }
+
+
+
+    @org.junit.jupiter.api.Test
+    public void goCommand_test_CorrectDmgToEnemy() {
+        String enemyName[] = new String[10];
+        enemyName[0] = "attack";
+        GameDataImpl gameData = new GameDataImpl();
+        Room startRoom = new RoomImpl("startRoom", "start", false);
+        gameData.setCurrentRoom(startRoom);
+        EnemyBuilder enemyBuilder = new EnemyBuilderImpl("Mucus");
+        Enemy mucus = enemyBuilder.setHealth(150).setDamageLow(40).setDamageHigh(40).build();
+        enemyName[1] = "Mucus";
+
+        Weapon testWeapon = new WeaponImpl("testWP",5,5,5);
+        gameData.getInventory().addItem((Item) testWeapon);
+        gameData.getInventory().equipItem((Item) testWeapon);
+
+        startRoom.registerEnemy(mucus);
+        Command attack = new AttackCommand();
+
+        String result1 = attack.execute(enemyName, gameData);
+
         enemyName[1] = "Mucus";
         String result = attack.execute(enemyName, gameData);
 
         System.out.println(result);
         Assert.assertTrue(mucus.getHealth().equals(140));
 
-
-
     }
-
 
     @org.junit.jupiter.api.Test
     public void goCommand_test_TwoAndMore_missingEnemyName() {

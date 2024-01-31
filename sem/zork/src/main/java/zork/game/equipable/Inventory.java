@@ -28,8 +28,25 @@ public class Inventory implements InventoryObservable, InventoryObserver {
 
     @Override
     public void addItem(Item item) {
-        itemList.put(item.getName(),item);
-        notifyInventoryChange();
+
+        if(isInventoryFull()){
+            System.out.println("Inventory is full");
+        }else{
+            itemList.put(item.getName(),item);
+            notifyInventoryChange();
+        }
+
+    }
+
+    @Override
+    public boolean isInventoryFull(){
+
+        if(itemList.size() < 3){
+            return false;
+        }else{
+            return true;
+        }
+
     }
 
     @Override

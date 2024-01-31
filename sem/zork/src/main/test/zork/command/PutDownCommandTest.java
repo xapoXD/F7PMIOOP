@@ -104,7 +104,7 @@ class PutDownCommandTest {
     }
 
     @org.junit.jupiter.api.Test
-    public <item> void putDownCommand_test_WeaponIsEquipped() {
+    public void putDownCommand_test_WeaponIsEquipped() {
 
         String itemName[] = new String[10];
 
